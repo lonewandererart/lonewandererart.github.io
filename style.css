@@ -1572,6 +1572,9 @@ input:required {
     opacity: 0;
     visibility: hidden;
     z-index: 10; }
+    .single-portfolio-content figure {
+      font-size: 15px;
+      color: #000000; }
     .single-portfolio-content .hover-content a {
       position: absolute;
       top: 50%;

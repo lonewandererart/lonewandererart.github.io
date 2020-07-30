@@ -200,6 +200,7 @@
                     </div>
                 </div>
 
+                <span id="more">
                 <!-- Single Gallery Item -->
                 <div class="col-12 col-sm-6 col-lg-3 single_gallery_item urban mb-30 wow fadeInUp" data-wow-delay="700ms">
                     <div class="single-portfolio-content">
@@ -239,7 +240,8 @@
                         </div>
                     </div>
                 </div>
-
+                <a onclick="hideshow()" id="hideshowbtn" class="btn alime-btn mb-3 mb-sm-0 mr-4">view more</a>
+                </span>
             </div>
 
             <div class="row">
@@ -392,6 +394,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
 
+    <script>
+        function hideshow() {          
+          document.getElementById("more").style.display = "inline";          
+        }
+    </script>
 </body>
 
 </html>
