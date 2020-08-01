@@ -574,7 +574,7 @@ input:required {
 .classynav ul li.active a {
   position: relative;
   z-index: 1; }
-  .classynav ul li.active a::before {
+.classynav ul li.active a::before {
     width: calc(100% - 40px);
     height: 2px;
     background-color: #fc6060;
@@ -1687,6 +1687,4 @@ input:required {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
-/*# sourceMappingURL=style.css.map */
+
