@@ -1636,8 +1636,7 @@ input:required {
     .contact-area .contact-info a {
       font-size: 14px; } }
       
-#more {display: none;}
-      
+.moreContent {display: none;}
 
 #map {
   height: 600px;
