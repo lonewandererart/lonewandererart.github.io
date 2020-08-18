@@ -574,7 +574,7 @@ input:required {
 .classynav ul li.active a {
   position: relative;
   z-index: 1; }
-.classynav ul li.active a::before {
+  .classynav ul li.active a::before {
     width: calc(100% - 40px);
     height: 2px;
     background-color: #fc6060;
@@ -1352,7 +1352,7 @@ input:required {
     content: '';
     z-index: 1; }
   .single-post-area .post-thumbnail {
-    
+    display: block;
     overflow: hidden; }
     .single-post-area .post-thumbnail img {
       width: 100%;
@@ -1572,9 +1572,6 @@ input:required {
     opacity: 0;
     visibility: hidden;
     z-index: 10; }
-    .single-portfolio-content figure {
-      font-size: 15px;
-      color: #000000; }
     .single-portfolio-content .hover-content a {
       position: absolute;
       top: 50%;
@@ -1635,8 +1632,6 @@ input:required {
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .contact-area .contact-info a {
       font-size: 14px; } }
-      
-.moreContent {display: none;}
 
 #map {
   height: 600px;
@@ -1650,6 +1645,7 @@ input:required {
     border: none !important;
     border-radius: 10px; }
 
+.moreContent {display: none;}
      /* Dropdown Button */
 .dropbtn {
   padding: 16px;
