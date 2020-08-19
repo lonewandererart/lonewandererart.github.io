@@ -1690,3 +1690,8 @@ input:required {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block; z-index: 150;visibility: visible;
   overflow: hidden;}
+
+#aboutphoto{
+  max-width: 70%;
+  height: auto;
+}
