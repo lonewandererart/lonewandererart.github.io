@@ -112,7 +112,7 @@ ul {
   
   background-size: 100% !important;
   background-repeat: no-repeat !important; 
-  background-position: left top;}
+  background-position: left top !important;}
 
 .jarallax {
   position: relative;
