@@ -111,7 +111,8 @@ ul {
 .bg-img {
   background-position: center center !important;
   background-size: contain !important;
-  background-repeat: no-repeat !important; }
+  background-repeat: no-repeat !important; 
+  background-position: left top;}
 
 .jarallax {
   position: relative;
