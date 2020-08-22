@@ -112,7 +112,7 @@ ul {
   background-position: left top !important;
   background-size: cover !important;
   background-repeat: no-repeat !important; 
-  }
+  max-height: fit-content;  }
 
 .jarallax {
   position: relative;
